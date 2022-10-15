@@ -1,5 +1,5 @@
 	_G.KEY = "q"
-	_G.PART = "LowerTorso"
+	_G.PART = "Head"
 	_G.PRED = 0.037
 	_G.Frame = Vector3.new(0,0.53,0)
 	_G.AIR = -0.5
