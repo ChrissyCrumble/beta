@@ -1,4 +1,3 @@
-    function()
 		getgenv().AimPart = "HumanoidRootPart"
 		getgenv().AimlockKey = "q"
 		getgenv().AimRadius = 30
