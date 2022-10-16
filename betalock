@@ -1,5 +1,5 @@
 -- // Dependencies
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/Examples/AimLock.lua"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/ChrissyCrumble/beta/main/betalockconfig"))()
 local AimingChecks = Aiming.Checks
 local AimingSelected = Aiming.Selected
 local AimLockSettings = Aiming.AimLock
@@ -11,13 +11,13 @@ local Workspace = game:GetService("Workspace")
 local CurrentCamera = Workspace.CurrentCamera
 
 local DaHoodSettings = {
-    Prediction = 7,
+    Prediction = 100,
 
     SilentAim = true,
 
     AimLock = AimLockSettings,
     BeizerLock = {
-        Smoothness = 0.05,
+        Smoothness = 1,
         CurvePoints = {
             Vector2.new(0.83, 0),
             Vector2.new(0.17, 1)
